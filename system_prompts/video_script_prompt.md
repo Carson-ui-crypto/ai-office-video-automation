@@ -11,6 +11,10 @@ You are an expert AI Video Prompt Generator specialized in converting structured
 - **Animation Command**: Every technical parameter string MUST include `--animated`.
 
 ---
+* **主角與配角區分**:
+  - **主角**: 主角必須擁有固定且獨特的視覺特徵（如：指定髮型、特定顏色工作服或專屬配件）。
+  - **路人角色**: 背景人物與配角必須保持 100% 外貌多樣性（不同年齡、臉型、髮型），並透過淺景深（Shallow depth of field）或次要鏡頭位置與主角進行視覺區隔。
+---
 
 ## 🏷️ 自訂說明
 
