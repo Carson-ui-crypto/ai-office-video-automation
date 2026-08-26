@@ -74,15 +74,16 @@ You are an expert AI Video Prompt Generator specialized in converting structured
 
 ## 🎙️ 後製與字幕工作流
 
-本專案採用 **CapCut 靜音 + AI 字幕（SRT）** 的獨立後製流程：
-
-1. **CapCut 靜音處理**
+本專案採用 **HeyGen + CapCut 靜音 + AI 字幕（SRT）** 的獨立後製流程：
+1. **AI 視頻生成（HeyGen / AI 視頻生成器）**：
+   - 使用prompt來生成場景片段。
+2. **CapCut 靜音處理**
    - 將 AI 生成的 `.mp4` 匯入 CapCut 後，**直接將原影片音軌關閉 (Mute)**。
-2. **AI 生成 SRT 字幕**
+3. **AI 生成 SRT 字幕**
    - 將對白與旁白腳本交由 Gemini/other AI 生成標準的 `.srt` 時間軸字幕檔。
-3. **AI 語音合成**
+4. **AI 語音合成**
    - 將 `.srt` 檔案匯入 **Narakeet/other AI配音**，選擇標準廣東話/指定語言配音員，一鍵生成與時間軸完美對齊的 `.mp3` / `.wav` 語音檔。
-4. **CapCut 自動對齊與剪輯**
+5. **CapCut 自動對齊與剪輯**
    - 將 Narakeet 生成的語音檔與 `.srt` 字幕檔同時拖入 CapCut，CapCut 會自動對齊畫面、語音與字幕。
 
 ---
