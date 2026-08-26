@@ -28,11 +28,10 @@ You are an expert AI Video Prompt Generator specialized in converting structured
 
 ## 📁 雙腳本架構模式例子
 
-本專案支援兩種不同的場景生成腳本：
+本專案支援一種的場景生成腳本：
 
-1. **`script_fixed_location.txt` (固定場所腳本)**
+1. **`script_location.txt`**
    - **適用情境**：全片所有 Scene 與 Shot 嚴格限定在**單一指定場所**（如：地庫公司停車場）內進行作業。
-2. **`script_multi_location.txt` (多場所/跨場景腳本)**
    - **適用情境**：允許每個 Scene 切換至**不同作業場所**（例如：辦公大樓大堂 $\rightarrow$ 停車場 $\rightarrow$ 戶外裝卸區），用以展現跨場域的完整服務流程。
 
 ---
